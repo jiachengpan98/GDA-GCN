@@ -1,0 +1,25 @@
+population-gcn
+=> Average test accuracy in 10-fold CV: 0.81391
+=> Average test AUC in 10-fold CV: 0.80038
+=> Average test sensitivity 0.8252, specificity 0.7680, F1-score 0.7926
+ho脑图谱
+=> Average test accuracy in 10-fold CV: 0.99624
+=> Average test AUC in 10-fold CV: 0.99843
+=> Average test sensitivity 0.9923, specificity 1.0000, F1-score 0.9961
+========================== Finish ==========================output没归一,表型数据不与特征相乘
+k=8
+=> Average test accuracy in 10-fold CV: 0.99624
+=> Average test AUC in 10-fold CV: 1.00000
+=> Average test sensitivity 0.9962, specificity 0.9960, F1-score 0.9960
+k=5
+=> Average test accuracy in 10-fold CV: 0.99624
+=> Average test AUC in 10-fold CV: 1.00000
+=> Average test sensitivity 0.9923, specificity 1.0000, F1-score 0.9961
+k=9
+=> Average test accuracy in 10-fold CV: 0.99624
+=> Average test AUC in 10-fold CV: 1.00000
+=> Average test sensitivity 0.9926, specificity 1.0000, F1-score 0.9962
+----------------------adj，output归一去掉
+=> Average test accuracy in 10-fold CV: 0.99436
+=> Average test AUC in 10-fold CV: 0.99671
+=> Average test sensitivity 0.9887, specificity 1.0000, F1-score 0.9942
