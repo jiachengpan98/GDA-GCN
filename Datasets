@@ -1,7 +1,7 @@
-Neuroimaging Data Processing Pipeline
+#Neuroimaging Data Processing Pipeline
 This repository supports the analysis of resting-state fMRI (rs-fMRI) data from the ABIDE and REST-meta-MDD datasets, preprocessed using DPARSF.
 
-Datasets
+#Datasets
 1. ABIDE (Autism Brain Imaging Data Exchange)
 Description: A multi-site open-access dataset for autism spectrum disorder (ASD) research, containing structural and functional MRI data from patients and healthy controls.
 
@@ -24,7 +24,7 @@ Contains 1,300+ MDD patients and healthy controls.
 
 Standardized preprocessing protocols (e.g., removal of scanner effects).
 
-Preprocessing Tool
+#Preprocessing Tool
 DPARSF (Data Processing Assistant for Resting-State fMRI)
 Description: A MATLAB-based toolbox for rs-fMRI preprocessing and analysis, compatible with SPM and REST.
 
@@ -36,7 +36,7 @@ Slice timing correction, realignment, normalization, smoothing.
 
 Functional connectivity analysis (e.g., ALFF, ReHo).
 
-Usage
+#Usage
 1.Download datasets from the links above.
 
 2.Preprocess data using DPARSF (refer to its documentation).
