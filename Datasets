@@ -5,7 +5,7 @@ Datasets
 1. ABIDE (Autism Brain Imaging Data Exchange)
 Description: A multi-site open-access dataset for autism spectrum disorder (ASD) research, containing structural and functional MRI data from patients and healthy controls.
 
-Download: ABIDE I Dataset
+Download: http://fcon_1000.projects.nitrc.org/indi/abide/abide_I.html
 
 Key Features:
 
@@ -16,7 +16,7 @@ Data formats: NIfTI, phenotypic information in CSV.
 2. REST-meta-MDD (Major Depressive Disorder)
 Description: A large-scale rs-fMRI dataset for major depressive disorder research, aggregating multi-center data.
 
-Download: REST-meta-MDD
+Download:https://rfmri.org/REST-meta-MDD
 
 Key Features:
 
@@ -28,7 +28,7 @@ Preprocessing Tool
 DPARSF (Data Processing Assistant for Resting-State fMRI)
 Description: A MATLAB-based toolbox for rs-fMRI preprocessing and analysis, compatible with SPM and REST.
 
-Download & Tutorials: DPARSF Demo Data
+Download & Tutorials: https://rfmri.org/content/demonstrational-data-resting-state-fmri
 
 Key Functions:
 
@@ -37,17 +37,9 @@ Slice timing correction, realignment, normalization, smoothing.
 Functional connectivity analysis (e.g., ALFF, ReHo).
 
 Usage
-Download datasets from the links above.
+1.Download datasets from the links above.
 
-Preprocess data using DPARSF (refer to its documentation).
+2.Preprocess data using DPARSF (refer to its documentation).
 
-Run statistical analyses (e.g., group comparisons, machine learning models).
 
-References
-ABIDE: Di Martino et al., 2014, Molecular Psychiatry
 
-REST-meta-MDD: Yan et al., 2019, Scientific Data
-
-DPARSF: Chao-Gan & Yu-Feng, 2010, Frontiers in Neuroscience
-
-Note: Ensure compliance with data usage agreements from each dataset.
