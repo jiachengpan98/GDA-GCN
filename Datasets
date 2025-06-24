@@ -4,37 +4,16 @@ This repository supports the analysis of resting-state fMRI (rs-fMRI) data from 
 #Datasets
 1. ABIDE (Autism Brain Imaging Data Exchange)
 Description: A multi-site open-access dataset for autism spectrum disorder (ASD) research, containing structural and functional MRI data from patients and healthy controls.
-
 Download: http://fcon_1000.projects.nitrc.org/indi/abide/abide_I.html
-
-Key Features:
-
-Includes over 1,000 subjects across 17 international sites.
-
-Data formats: NIfTI, phenotypic information in CSV.
 
 2. REST-meta-MDD (Major Depressive Disorder)
 Description: A large-scale rs-fMRI dataset for major depressive disorder research, aggregating multi-center data.
-
 Download:https://rfmri.org/REST-meta-MDD
-
-Key Features:
-
-Contains 1,300+ MDD patients and healthy controls.
-
-Standardized preprocessing protocols (e.g., removal of scanner effects).
 
 #Preprocessing Tool
 DPARSF (Data Processing Assistant for Resting-State fMRI)
 Description: A MATLAB-based toolbox for rs-fMRI preprocessing and analysis, compatible with SPM and REST.
-
 Download & Tutorials: https://rfmri.org/content/demonstrational-data-resting-state-fmri
-
-Key Functions:
-
-Slice timing correction, realignment, normalization, smoothing.
-
-Functional connectivity analysis (e.g., ALFF, ReHo).
 
 #Usage
 1.Download datasets from the links above.
